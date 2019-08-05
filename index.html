@@ -4,20 +4,98 @@
     <meta charset="utf-8">
       <script src="util.js"></script>
     <title>!!Demo!!!</title>
+<style>
+    .pagetitle {
+          width:auto;
+          text-align:center;
+          font-size:30px;
+          padding:25px 40px 25px 0px;
+          text-transform:uppercase;
+       background: url('hack.jpg') 0 0 repeat-x;
+        }
 
+div.main-div {
+  font-family: Verdana, sans-serif;
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  height: 50px;
+}
+
+div.main-div div {
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.first {
+  color: darkviolet;
+  animation: swag 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite 0.4s;
+}
+
+.second {
+  color: cyan;
+  animation: swag 2.4s cubic-bezier(0.6, 0.04, 0.98, 0.335) infinite 0.3s;
+}
+
+.third {
+  color: chartreuse;
+  animation: swag 2s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite 0.8s;
+}
+
+.forth {
+  color: deeppink;
+  animation: swag 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite 0.2s;
+}
+
+@-webkit-keyframes swag {
+    form {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes swag {
+    form {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes swag {
+    form {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg);
+    }
+}
+@keyframes swag {
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+           </style>
     <hr size="02">
     <center>
-    <h1 style="color:red"> This site is designed for my practice</h1>
+    <h1 style="color:white" class="pagetitle"> This site is designed for my practice</h1>
+
   </center>
     <address>
     <p> <strong> Barada Prasad Mishra</strong></p>
       <h4> Keep Smiling  &#128519;</h4>
       </address>
-        <hr  size="02" style="color:blue;">
 
+        <hr  size="02" style="color:blue;">
       </head>
   <body>
-  <marquee><p> if any concern kindly drop a mail <mark>lipunmishra098@gmail.com </mark> </p></marquee>
+
 <center>
     <div style="background-image: url('lpnz1x63grm11.jpg'); height:500px; width:950px;">
       <label for="uname"><b>UserName:</b></label>
@@ -27,8 +105,18 @@
       <input type="text" name="password"  id="password" required>
       <br> <br>
         <button type="button" onclick="validateUser()">Login</button>
-
+        <br><br><br><br><br>
+        <marquee><p style="color:red"> if any concern kindly drop a mail <mark>lipunmishra098@gmail.com </mark> </p></marquee>
       </div>
+      <div class="main-div">
+      <div class="first">M</div>
+      <div class="second">I</div>
+      <div class="third">S</div>
+      <div class="forth">H</div>
+      <div class="forth">R</div>
+      <div class="forth">A</div>
+    </div>
 </center>
+
   </body>
 </html>
