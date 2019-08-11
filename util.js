@@ -21,6 +21,13 @@ function validateUser() {
     alert(msg+" Have a nice day");
   }
 
+function signOut()
+{
+  window.location.replace('index.html');
+}
+
+
+
 function loveCalculator() {
 
   var pname1=document.getElementById('username').value;
